@@ -16,7 +16,7 @@
 		F98B5D6F2724328900AE945F /* AR_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B5D6E2724328900AE945F /* AR_TutorialTests.swift */; };
 		F98B5D792724328900AE945F /* AR_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B5D782724328900AE945F /* AR_TutorialUITests.swift */; };
 		F98B5D7B2724328900AE945F /* AR_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B5D7A2724328900AE945F /* AR_TutorialUITestsLaunchTests.swift */; };
-		F9B466342726F9F7008E3283 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9B466332726F9F7008E3283 /* toy_biplane.usdz */; };
+		F98E654927270D0800AC3ACD /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F98E654827270D0700AC3ACD /* toy_biplane.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		F98B5D742724328900AE945F /* AR_TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98B5D782724328900AE945F /* AR_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TutorialUITests.swift; sourceTree = "<group>"; };
 		F98B5D7A2724328900AE945F /* AR_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F9B466332726F9F7008E3283 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
+		F98E654827270D0700AC3ACD /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			children = (
 				F98B5D582724328400AE945F /* AppDelegate.swift */,
 				F98B5D5A2724328400AE945F /* ViewController.swift */,
-				F9B466332726F9F7008E3283 /* toy_biplane.usdz */,
+				F98E654827270D0700AC3ACD /* toy_biplane.usdz */,
 				F98B5D5C2724328400AE945F /* Experience.rcproject */,
 				F98B5D5E2724328400AE945F /* Main.storyboard */,
 				F98B5D612724328900AE945F /* Assets.xcassets */,
@@ -233,8 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98B5D652724328900AE945F /* LaunchScreen.storyboard in Resources */,
+				F98E654927270D0800AC3ACD /* toy_biplane.usdz in Resources */,
 				F98B5D622724328900AE945F /* Assets.xcassets in Resources */,
-				F9B466342726F9F7008E3283 /* toy_biplane.usdz in Resources */,
 				F98B5D602724328400AE945F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
